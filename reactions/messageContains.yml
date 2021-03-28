@@ -2,7 +2,6 @@
 ### For custom emoji from your Discord server, use the text value surrounded with double ":".
 
 # Monkey
-faible: [':bonobo:']
 singe: [':bonobo:']
 weakos: [':bonobo:']
 
@@ -11,3 +10,6 @@ math: [':pepescience:']
 calcul: [':pepescience:']
 theorycraft: [':pepescience:']
 science: [':pepescience:']
+
+# Hartigan
+hartigan: [':harti:', ':harticry:']

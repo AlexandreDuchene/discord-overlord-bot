@@ -1,0 +1,9 @@
+### For default emoji values, use the actual encoded emoji.
+### For custom emoji from your Discord server, use the text value surrounded with double ":".
+
+# Salé
+sel: ['🧂']
+sels: ['🧂']
+salé: ['🧂']
+salt: ['🧂']
+salty: ['🧂']
