@@ -1,0 +1,15 @@
+### For default emoji values, use the actual encoded emoji.
+### For custom emoji from your Discord server, use the text value surrounded with double ":".
+
+# Monkey
+singe: [':bonobo:']
+weakos: [':bonobo:']
+
+# Science
+math: [':pepescience:']
+calcul: [':pepescience:']
+theorycraft: [':pepescience:']
+science: [':pepescience:']
+
+# Hartigan
+hartigan: [':harti:', ':harticry:']
