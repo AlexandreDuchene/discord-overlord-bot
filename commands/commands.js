@@ -7,6 +7,10 @@ exports.executeCommand = function (message)
 
         let commandName = words[0].slice(1);
 
+        if (commandName.length <= 0) {
+            return;
+        }
+
         fs.readdir(__dirname, (err, files) => {
             if (err) {
                 throw err;

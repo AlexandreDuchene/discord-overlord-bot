@@ -4,3 +4,5 @@ exports.executeCommand = function(message)
 {
 
 }
+
+exports.help = "work in progress - be patient :)";
