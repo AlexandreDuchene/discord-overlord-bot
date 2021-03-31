@@ -1,13 +1,13 @@
 const fs = require('fs');
 
-exports.executeCommand = function (message)
+exports.execute = function (message)
 {
     if (message.content.slice(0, 1) === '!') {
         const words = message.content.split(' ');
 
         let commandName = words[0].slice(1);
 
-        if (commandName.length <= 0) {
+        if (commandName.length <= 0 || commandName === 'index') {
             return;
         }
 
@@ -17,7 +17,7 @@ exports.executeCommand = function (message)
             }
 
             files.forEach(file => {
-                if (file.toLowerCase().startsWith(commandName.toLowerCase())) {
+                if (file.toLowerCase().slice(0, -3) === commandName.toLowerCase()) {
                     const command = require(__dirname + '/' + file);
                     command.executeCommand(message);
                 }

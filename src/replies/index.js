@@ -45,7 +45,7 @@ function reply(message, replyMessage)
     // Replies starting with "/" are images
     if (replyMessage.slice(0, 1) === '/') {
         message.channel.send('', {
-            files: [__dirname + '/..' + replyMessage]
+            files: [__dirname + '/../..' + replyMessage]
         });
     } else {
         message.channel.send(replyMessage);
