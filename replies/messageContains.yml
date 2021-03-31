@@ -16,10 +16,26 @@ waifu: [ 'Yamete Jeldhis-kun 😳' ]
 zg: ["ZG c'est so 2020, GL pour trouver du monde 😢"]
 
 # healers
-faute des heals: ['Tjs la faute des heals.']
+faute des heal: ['Tjs la faute des heals.']
 
 # mollet
-mollet: ['<@825670153387769866> https://giphy.com/gifs/cartoon-spongebob-squarepants-leg-lepuSiUym7mQE']
+mollet: ['https://giphy.com/gifs/cartoon-spongebob-squarepants-leg-lepuSiUym7mQE']
 
 # disenchant
 si personne: ['Malka reçoit le butin: [Cristal de nexus]']
+
+# baguette
+baguette: ['/image/baguette.jpg']
+
+# toxic
+toxic: ['/image/toxic.png']
+toxique: ['/image/toxic.png']
+
+# roulette
+roulette: ['/image/roulette.jpg']
+
+# ouro
+ouro: ['/image/ouro.png']
+
+# ouro
+jelareff: ['/image/jelareff.png']
