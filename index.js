@@ -11,6 +11,7 @@ const chatLog = require('./src/chat-log/index')
 const commands = require('./src/commands/index')
 const reactions = require('./src/reactions/index');
 const replies = require('./src/replies/index');
+const messageDelete = require('./src/messageDelete/index');
 
 client.on('ready', () => {
     console.log(`Logged in as ${client.user.tag}!`);
@@ -20,11 +21,17 @@ client.on('ready', () => {
 client.on('message', message => {
     if (message.guild !== null) {
         reactions.react(message);
-    }
-    if (!message.author.bot) {
         chatLog.logMessage(message);
         commands.execute(message);
+    }
+    if (!message.author.bot) {
         replies.reply(message);
+    }
+});
+
+client.on('messageDelete', message => {
+    if (!message.author.bot) {
+        // messageDelete.shameDeleted(message);
     }
 });
 

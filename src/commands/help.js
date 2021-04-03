@@ -13,7 +13,7 @@ exports.executeCommand = function(message)
             if (file !== 'index.js') {
                 const command = require(__dirname + '/' + file);
 
-                msg += '\n`' + file.toLowerCase().slice(0, -3) + '` : ' + command.help;
+                msg += '\n`!' + file.toLowerCase().slice(0, -3) + '` : ' + command.help;
             }
         });
 

@@ -1,5 +1,4 @@
 const fs = require('fs');
-const path = require('path');
 
 exports.logMessage = function(message) {
     const guild = message.guild.name;
